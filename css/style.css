@@ -1,0 +1,149 @@
+/* body {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(52, 74, 93);
+    color: aliceblue;
+    padding: 0 100px;
+    border-top: solid crimson;
+    position: fixed;
+    width: 100%;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 18px;
+    transition: ease 1s;
+    font-size: 22px;
+}
+
+header a:hover {
+    color: aqua;
+    font-size: 19px;
+}
+
+.cars {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/istockphoto-1303175877-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgb(144, 148, 152);
+    background-position: center;
+}
+
+.cars h2 {
+    padding-bottom: 5px;
+}
+
+.cars div {
+    padding: 0 80px;
+}
+
+.cars span {
+    color: rgb(200, 64, 64);
+}
+
+.cars a {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(30, 60, 97);
+    padding: 10px;
+    border-radius: 10px 30px 10px 30px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: ease 1s;
+}
+
+.cars a:hover {
+    transform: scale(1);
+    background-color: aqua;
+}
+
+.services h2 {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.services .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 80px;
+    transition: ease 0.5s;
+}
+
+.services .card {
+    box-shadow: 3px 3px 6px 6px #3b80b5;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(99, 112, 212);
+    width: 20em;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    text-align: center;
+    height: 220px;
+}
+
+.card h3 {
+    color: rgb(200, 64, 64);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 1000px;
+}
+
+.services .card>div {
+    color: #111314;
+    font-size: 30px;
+}
+
+.pro {
+    background-color: #406b89;
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.pro h2 {
+    color: rgb(248, 248, 248);
+    margin-bottom: 20px;
+    border-bottom: solid crimson;
+    display: inline-block;
+}
+
+.pro .container {
+    display: flex;
+}
+
+.pro .card {
+    background-color: rgb(241, 242, 244);
+    border: solid 1px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.pro button {
+    border-radius: 10px;
+    color: azure;
+    background-color: #0f7277;
+    padding: 5px 10px;
+    border: none;
+}
